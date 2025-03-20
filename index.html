@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saylani Mass IT Training</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Top bar */
+    .top-bar {
+      background-color: #f1f1f1;
+      padding: 5px 0;
+      font-size: 14px;
+      color: #666;
+    }
+    .language-flags img {
+      width: 24px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .navbar-brand img {
+      height: 50px;
+    }
+    .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .nav-link:hover {
+      color: #0d6efd !important;
+    }
+    .btn-donate {
+      background-color: #0d6efd;
+      color: #fff;
+      border-radius: 30px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .btn-donate:hover {
+      background-color: #0b5ed7;
+      transform: translateY(-2px);
+    }
+
+    /* Hero section */
+    .hero-section {
+      background: linear-gradient(135deg, #e9f0f5, #ffffff);
+      padding: 80px 0;
+    }
+    .hero-title {
+      font-size: 36px;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 20px;
+    }
+    .hero-text {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .hero-img {
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .hero-img:hover {
+      transform: scale(1.03);
+    }
+
+    /* Footer (optional) */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar d-flex justify-content-between align-items-center px-4">
+    <div>International donors, visit your site.</div>
+    <div class="d-flex align-items-center">
+      <div class="language-flags">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="UK">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="US">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Canada">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Turkey">
+      </div>
+      <select class="form-select form-select-sm ms-2" style="width: auto;">
+        <option selected>English</option>
+        <option>Urdu</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://saylaniwelfare.com/static/media/logo.22bf709605809177256c.png" alt="Saylani Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item">
+            <a href="#" class="btn btn-donate ms-3 px-4">Donate Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="text-uppercase text-muted mb-2">
+            Services - Education - Technical Education - SMIT
+          </div>
+          <h1 class="hero-title">
+            Saylani Mass IT Training
+          </h1>
+          <p class="hero-text">
+            Today is the age of information technology and we aim to equip our youth with computer programming skills and prepare them for the development of the country. In this regard, our Saylani Mass IT Training Program provides vocational training to more than 75,000 students in Web and Mobile Application Development, CCNA, Graphics Designing, Computer Based Accounting in Karachi, Hyderabad, Faisalabad, Islamabad. Our goal is to develop more than 1 million software developers across the country, which will add about $100 billion annually to Pakistan's economy.
+          </p>
+          <a href="#" class="btn btn-donate px-4 py-2">Join Now</a>
+        </div>
+
+        <!-- Image Content -->
+        <div class="col-md-6 text-center">
+          <img src="img.webp" alt="IT Training" class="img-fluid hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Optional) -->
+  <footer>
+    &copy; 2025 Saylani Welfare International Trust. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  
+
+</body>
+</html>
